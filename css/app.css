@@ -1,7 +1,13 @@
-/*
-button, .button {
-	background-color: slategray;
-	border-color: slategray;
-	color: whitesmoke;
+h1, 
 
-*/
+.uk-heading-large {
+	font-size: 64px;
+	line-height: 72px;
+	font-family: 'Gruppo-Regular';
+	text-shadow: 2px 2px #a41034;
+}
+
+@font-face {
+	font-family: 'Gruppo-Regular';
+	src: url('fonts/Gruppo-Regular.otf');
+}
