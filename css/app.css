@@ -1,4 +1,4 @@
-
+@import url(http://fonts.googleapis.com/css?family=Varela+Round|Montserrat);
 
 body,html{
 width:100%;
@@ -16,17 +16,13 @@ margin:auto;
 	
 }
 
-.uk-grid-border > *  {
+.uk-grid-border  {
 	padding-left:0px;
-	border-left:1px solid #dddddd;
+	margin-left:0px;
+	border-right:1px solid #dddddd;
 }
 
 .uk-navbar-nav {
-	 width: 100%;
-}
-
-.uk-navbar-nav {
-
 	width:100%;
     margin:0 auto;
     padding:0 auto;
@@ -35,90 +31,85 @@ margin:auto;
 	color: #a41034;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
-
 }
-.uk-navbar-flip {
-	float:right;
 
-}
-.uk-navbar-nav li {
+.uk-nav li {
 	display:inline-block;
-    width:25%;
-    margin:0;
-    padding-top:15px;
-    padding-bottom: 20px;
-
-
-
+    width:auto;
+    padding-bottom:10px;
+    
+    
 }
 
-.uk-navbar-nav li a {
-	font-family: 'SourceSansPro-Semibold';
-	src: url('fonts/SourceSansPro-Semibold.otf');
-	font-weight:bold;
+.uk-nav li a {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: lowercase;
+	color:#4f4f4f;
+	text-align: center;
 	font-size:1.1em;
-	text-align:center;
-	vertical-align: middle;
-    padding-bottom:15px;
-    margin:5px 0;
     border-left: 0px transparent;
     border-right: 0px transparent;
     display:block;
 
 
-
 }
 
-
-@font-face {
-    font-family: 'SourceSansPro-Semibold';
-	src: url('fonts/SourceSansPro-Semibold.otf');
-}
-
-.uk-navbar-nav li a:hover,
-.uk-navbar-nav li a:active
-.uk-navbar-nav li a:focus,
-.uk-navbar-nav li.uk-active a {
+.uk-nav li a:hover,
+.uk-nav li a:active
+.uk-nav li a:focus,
+.uk-nav li.uk-active a {
 	background:transparent;
-	text-align: center;
-	color: #a41034;
+	color:#a41034;
 	
 }
 
 .uk-navbar-brand {
-	position:relative;
-	padding:0px;
+	padding-top:5px;
+	vertical-align: center;
 
 }
 
-.uk-navbar-toggle:after {
+.uk-nav-toggle:after {
   content: "\f0c9";
   font-family: FontAwesome;
   /* 1 */
-  vertical-align: middle;
+}
+
+.uk-nav-offcanvas li {
+	width:100%;
+	font-family: 'Montserrat', sans-serif;
+	color:#d4d4d4;
+	
+	
+
+}
+.uk-nav-offcanvas li a {
+	text-align: left;
+	color:#d4d4d4;
 }
 
 .uk-main {
-	margin:10px 10%;
+	margin:0px 5%;
 	padding:0;
 	text-align: left;
 }
 
-.uk-thumbnail-large {
-	height:auto;
+.uk-fixed {
+	position: fixed;
 }
 
-
-.uk-article-title {
-	font-family: 'BebasNeue';
-	src: url('fonts/BebasNeue.otf');
-	font-size:72px;
+.uk-thumbnail-small {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.uk-article p {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .uk-article-title {
-	font-family: 'BebasNeue';
-	src: url('fonts/BebasNeue.otf');
-	font-size:72px;
+	font-family: 'Varela Round', sans-serif;
+	font-size:3em;
+	text-transform: uppercase;
 }
 
 .uk-badge {

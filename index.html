@@ -19,12 +19,13 @@
         <link rel="stylesheet" href="css/uikit.gradient.min.css" />
         <link rel="stylesheet" href="css/app.css" />
 
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Varela+Round|Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Varela+Round|Montserrat' rel='stylesheet' type='text/css'>
 
         <script src="js/jquery.js"></script>
+        <script src="js/uikit.js"></script>
+        <script src="../vendor/jquery.js"></script>
         <script src="vendor/js/cbpFWTabs.js"></script>
         <script src="vendor/js/modernizr.custom.js"></script>
-        <script src="js/uikit.js"></script>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
@@ -36,138 +37,161 @@
     	<!-- MAIN CONTAINER -->
 
         <div class="uk-container-center uk-main" >
-            <div class="uk-grid" data-uk-grid-margin>
-                <div class="uk-width-1-3 uk-navbar-brand uk-hidden-small">
-                    <a href="index.html">
-                        <img width="100px" height="100px"  src="img/logo_short.png">
-                    </a>
+            <div class="uk-grid">
+                <div class="uk-width-1-3">
+                     <ul class="uk-navbar-nav uk-navbar-brand uk-hidden-small">
+                        <li><a href="index.html">
+                            <img width="auto" height="auto"  src="img/logo_full4.png"></a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="uk-width-2-3">
-                    <nav class="uk-nav-navbar">
-                        <ul class="uk-navbar-nav uk-text-middle uk-hidden-small" style=" display:inline;" data-uk-switcher="{connect:'#switcher-1'}">
-                            <li><a href=""><span>Bio</span></a></li>
+                    <nav class="uk-navbar-nav uk-margin-top">
+                        <ul class="uk-nav uk-navbar-flip uk-hidden-small" style=" display:inline;" data-uk-switcher="{connect:'#switcher-1'}">
+                            <li><a href="#bio"><span>Bio</span></a></li>
                             <li><a href=""><span>Portfolio</span></a></li>
                             <li><a href=""><span>Tech Talk</span></a></li>
                             <li><a href=""><span>Contact</span></a></li>
-                            <a class="uk-navbar-brand uk-navbar-right uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
+                            
                         </ul>
                     </nav>
+                    <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" style="margin-right: 10px" data-uk-offcanvas=""></a>
                 </div>
-            </div>              
-
             </div>
+        </div>
+            
 
-            <div class="uk-container-center" style="background-image:url('img/top_bg.png'); background-repeat: repeat-x; height:50px">
-                <div class="uk-grid" data-uk-grid-margin>
-                    <ul id="switcher-1" class="uk-switcher" >
-                        <li>
-                            <div class="uk-container-center uk-main uk-margin-top" >
-                                <div class="uk-container-center uk-text-center">
-                                    <img class="uk-thumbnail-small uk-border-circle" src="img/kc-2.jpg" alt="">
-                                    <h1 class="uk-article-title">KRISTIN CORONA</h1>
+        <div class="uk-container-center" style="background-image:url('img/top_bg.png'); background-repeat: repeat-x; height:50px">
+            <div class="uk-grid" data-uk-grid-margin>
+                <ul id="switcher-1" class="uk-switcher" >
+                    <li>
+                        <div class="uk-container-center uk-main uk-margin-top" >
+                            <div class="uk-container-center uk-text-center">
+                                <img class="uk-thumbnail-small uk-border-circle uk-hidden-small" src="img/kc-2.jpg" alt="">
+                                <h1 class="uk-article-title"></h1>
+                            </div>
+                        </div>
+
+                        <div class="uk-container-center uk-main">
+                            <article class="uk-article">
+
+                                <hr class="uk-article-divider">
+
+                                <div class="uk-grid" data-uk-grid-margin>
+                                    <div class="uk-width-1-2 uk-margin-top">
+                                        
+                                            <h1 class="uk-article-title">SKILLS</h1>
+                                       
+                                    </div>
+
+                                    <div class="uk-width-1-2 uk-margin-top">
+                                        <p>
+                                            <span class="uk-badge">HTML</span>
+                                            <span class="uk-badge">CSS</span>
+                                            <span class="uk-badge">SASS</span>
+                                            <span class="uk-badge">JavaScript</span>
+                                            <span class="uk-badge">Bootstrap</span>
+                                            <span class="uk-badge">UIKit</span>
+                                            <span class="uk-badge">SASS</span>
+                                            <span class="uk-badge">LESS</span>
+                                            <span class="uk-badge">Ruby</span>
+                                            <span class="uk-badge">Embedded Ruby</span>
+                                            <span class="uk-badge">Ruby on Rails</span>
+                                            <span class="uk-badge">Composer</span>
+                                            <span class="uk-badge">PostgreSQL</span>
+                                            <span class="uk-badge">SQLite</span>
+                                            <span class="uk-badge">Heroku</span>
+                                            <span class="uk-badge">Object Oriented Design</span>
+                                            <span class="uk-badge">User Experience Design</span>
+                                            <span class="uk-badge">Web Development</span>
+                                            <span class="uk-badge">Web Application Devemopment</span>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="uk-container-center uk-main">
+                                <hr class="uk-article-divider">
+
+                                <div class="uk-grid" data-uk-grid-margin>
+                                    <div class="uk-width-1-2 uk-margin-top">
+                                        
+                                        <h1 class="uk-article-title">Experience</h1>
+                                       
+                                    </div>
+
+                                    <div class="uk-width-1-2 uk-margin-top">
+                                        <p>
+                                            <span class="uk-badge uk-badge-success">2014 - Present </span>
+                                            Freelance Software Engineer
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <hr class="uk-article-divider">
+
+                                <div class="uk-grid" data-uk-grid-margin>
+                                    <div class="uk-width-1-2 uk-margin-top">
+                                        
+                                        <h1 class="uk-article-title">Education</h1>
+                                       
+                                    </div>
+
+                                    <div class="uk-width-1-2 uk-margin-top">
+                                        <p>
+                                            <span class="uk-badge uk-badge-success">2014 - Present </span>
+                                            Harvard Extension School
+                                        </p>
+                                        <p>
+                                            <span class="uk-badge uk-badge-success">2010 - 2013 </span>
+                                            Northeastern University
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <hr class="uk-article-divider">
+
+                                <h3 class="uk-article-subtitle">Brief Bio</h3>
+                                
+                                <p>I am currently employed as a freelance software developer, primarily working with Ruby on Rails, SQL, and JavaScript.</p>
+                                <p>I am taking Dynamic Web Applications to gain a better understanding of back-end development fundamentals.</p>
+                                <p>My pride and joy is my Apple MacBook Pro with a 2.8GHz Intel Core i7 processor and 8GB 1600MHz DDR3 memory. It runs on Mac OS -v 10.9.4.</p>
+                            </article>
+                        </div>
+                    </li>
+
+                    <!-- CONTENT CONTAINER -->
+                    <li>
+                		<!-- CONTENT -->
+                        <div class="uk-container-center uk-main uk-margin-top" >
+                            <div class="uk-container-center uk-text-center">
                                 <article class="uk-article">
-
-                                    <hr class="uk-article-divider">
-
-                                    <div class="uk-grid" data-uk-grid-margin>
-                                        <div class="uk-width-1-2 uk-margin-top">
-                                            
-                                                <h1 class="uk-article-title">Skills</h1>
-                                           
-                                        </div>
-
-                                        <div class="uk-width-1-2 uk-margin-top">
-                                            <p>
-                                                <span class="uk-badge">HTML</span>
-                                                <span class="uk-badge">CSS</span>
-                                                <span class="uk-badge">SASS</span>
-                                                <span class="uk-badge">JavaScript</span>
-                                                <span class="uk-badge">Bootstrap</span>
-                                                <span class="uk-badge">UIKit</span>
-                                                <span class="uk-badge">SASS</span>
-                                                <span class="uk-badge">LESS</span>
-                                                <span class="uk-badge">Ruby</span>
-                                                <span class="uk-badge">Embedded Ruby</span>
-                                                <span class="uk-badge">Ruby on Rails</span>
-                                                <span class="uk-badge">Composer</span>
-                                                <span class="uk-badge">PostgreSQL</span>
-                                                <span class="uk-badge">SQLite</span>
-                                                <span class="uk-badge">Heroku</span>
-                                                <span class="uk-badge">Object Oriented Design</span>
-                                                <span class="uk-badge">User Experience Design</span>
-                                                <span class="uk-badge">Web Development</span>
-                                                <span class="uk-badge">Web Application Devemopment</span>
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <hr class="uk-article-divider">
-
-                                    <div class="uk-grid" data-uk-grid-margin>
-                                        <div class="uk-width-1-2 uk-margin-top">
-                                            
-                                            <h1 class="uk-article-title">Experience</h1>
-                                           
-                                        </div>
-
-                                        <div class="uk-width-1-2 uk-margin-top">
-                                            <p>
-                                                <span class="uk-badge uk-badge-success">2014 - Present </span>
-                                                Freelance Software Engineer
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <hr class="uk-article-divider">
-
-                                    <div class="uk-grid" data-uk-grid-margin>
-                                        <div class="uk-width-1-2 uk-margin-top">
-                                            
-                                            <h1 class="uk-article-title">Education</h1>
-                                           
-                                        </div>
-
-                                        <div class="uk-width-1-2 uk-margin-top">
-                                            <p>
-                                                <span class="uk-badge uk-badge-success">2014 - Present </span>
-                                                Harvard Extension School
-                                            </p>
-                                            <p>
-                                                <span class="uk-badge uk-badge-success">2010 - 2013 </span>
-                                                Northeastern University
-                                            </p>
-                                        </div>
-                                    </div>
-
-
-                                    <hr class="uk-article-divider">
-
-                                    <h3 class="uk-article-subtitle">Brief Bio</h3>
-                                    
-                                    <p>I am currently employed as a freelance software developer, primarily working with Ruby on Rails, SQL, and JavaScript.</p>
-                                    <p>I am taking Dynamic Web Applications to gain a better understanding of back-end development fundamentals.</p>
-                                    <p>My pride and joy is my Apple MacBook Pro with a 2.8GHz Intel Core i7 processor and 8GB 1600MHz DDR3 memory. It runs on Mac OS -v 10.9.4.</p>
-                                </article>
-                            </div>
-                        </li>
-
-                        <!-- CONTENT CONTAINER -->
-                        <li>
-                    		<!-- CONTENT -->
-                            <div class="uk-container-center uk-margin-top">
-                        		
-                                <div class="uk-container-center uk-main uk-margin-bottom">
-                                    <div class="uk-container-center uk-margin-top">
-                                        <h1>Portfolio</h1>
-                                    </div>
+                                    <h1 class="uk-article-title">Portfolio</h1>
+                                    <p>
                 				    <div class="uk-slidenav-position">
-                                        <a class="uk-thumbnail-large uk-text-center uk-overlay-toggle">
+                                        <a class="uk-thumbnail-medium uk-text-center uk-overlay-toggle">
                                             <div class="uk-overlay">
-                                                <img width="auto" height="auto" src="img/thumb.png" alt="">
+                                                <img width="100%" src="img/thumb.png" alt="">
+                                                <div class="uk-overlay-area">
+                                                    <div class="uk-overlay-area-content">
+                                                    <a href="#" class="uk-icon-button uk-icon-github"></a>
+                                                    <a href="#" class="uk-icon-button uk-icon-external-link"></a>
+                                                    <div class="uk-overlay-caption">
+                                                        PROJECT 2
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="uk-slidenav uk-slidenav-previous"></a>
+                                    <a href="#" class="uk-slidenav uk-slidenav-next"></a>
+                                </div>
+
+                                <div class="uk-grid">
+                                    <div class="uk-width-1-3 uk-margin-top">
+
+                                        <a class="uk-thumbnail-small uk-text-center uk-overlay-toggle">
+                                            <div class="uk-overlay">
+                                                <img width="auto" height="auto" src="img/thumb1.png" alt="">
                                                 <div class="uk-overlay-area">
                                                     <div class="uk-overlay-area-content">
                                                         <a href="#" class="uk-icon-button uk-icon-github"></a>
@@ -179,91 +203,77 @@
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="#" class="uk-slidenav uk-slidenav-previous"></a>
-                                        <a href="#" class="uk-slidenav uk-slidenav-next"></a>
                                     </div>
 
-                                    <div class="uk-grid uk-grid-border">
-                                        <div class="uk-width-1-3 uk-margin-top">
-                                            
-                                                 <a class="uk-thumbnail-large uk-text-center uk-overlay-toggle">
-                                                    <div class="uk-overlay">
-                                                        <img width="auto" height="auto" src="img/thumb1.png" alt="">
-                                                        <div class="uk-overlay-area">
-                                                            <div class="uk-overlay-area-content">
-                                                                <a href="#" class="uk-icon-button uk-icon-github"></a>
-                                                                <a href="#" class="uk-icon-button uk-icon-external-link"></a>
-                                                                <div class="uk-overlay-caption">
-                                                                    PROJECT 2
-                                                                </div>
-                                                            </div>
+                                    <div class="uk-width-1-3 uk-margin-top">
+                                    
+                                         <a class="uk-thumbnail-small uk-text-center uk-overlay-toggle">
+                                            <div class="uk-overlay">
+                                                <img width="auto" height="auto" src="img/thumb1.png" alt="">
+                                                <div class="uk-overlay-area">
+                                                    <div class="uk-overlay-area-content">
+                                                        <a href="#" class="uk-icon-button uk-icon-github"></a>
+                                                        <a href="#" class="uk-icon-button uk-icon-external-link"></a>
+                                                        <div class="uk-overlay-caption">
+                                                            PROJECT 3
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </div>
                                             </div>
+                                        </a>
+                                    </div>
 
-                                            <div class="uk-width-1-3 uk-margin-top">
-                                            
-                                                 <a class="uk-thumbnail-large uk-text-center uk-overlay-toggle">
-                                                    <div class="uk-overlay">
-                                                        <img width="auto" height="auto" src="img/thumb1.png" alt="">
-                                                        <div class="uk-overlay-area">
-                                                            <div class="uk-overlay-area-content">
-                                                                <a href="#" class="uk-icon-button uk-icon-github"></a>
-                                                                <a href="#" class="uk-icon-button uk-icon-external-link"></a>
-                                                                <div class="uk-overlay-caption">
-                                                                    PROJECT 3
-                                                                </div>
-                                                            </div>
+                                    <div class="uk-width-1-3 uk-margin-top">
+                                         <a class="uk-thumbnail-small uk-text-center uk-overlay-toggle">
+                                            <div class="uk-overlay">
+                                                <img width="auto" height="auto" src="img/thumb1.png" alt="">
+                                                <div class="uk-overlay-area">
+                                                    <div class="uk-overlay-area-content">
+                                                        <a href="#" class="uk-icon-button uk-icon-github"></a>
+                                                        <a href="#" class="uk-icon-button uk-icon-external-link"></a>
+
+                                                        <div class="uk-overlay-caption">
+                                                            PROJECT 4
                                                         </div>
                                                     </div>
-                                                </a>
+                                                </div>
                                             </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </p>
+                        </article>
+    				</li>
+    			</ul>
+            </div>
+        </div>
+    </div>
 
-                                            <div class="uk-width-1-3 uk-margin-top">
-                                                 <a class="uk-thumbnail-large uk-text-center uk-overlay-toggle">
-                                                    <div class="uk-overlay">
-                                                        <img width="auto" height="auto" src="img/thumb1.png" alt="">
-                                                        <div class="uk-overlay-area">
-                                                            <div class="uk-overlay-area-content">
-                                                                <a href="#" class="uk-icon-button uk-icon-github"></a>
-                                                                <a href="#" class="uk-icon-button uk-icon-external-link"></a>
-
-                                                                <div class="uk-overlay-caption">
-                                                                    PROJECT 4
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                    				</li>
-                    			</ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                        
-                                <!-- END PAGE CONTENT -->
-                        
-                    </div>
                 
-                            <!-- END PORTFOLIO SECTION -->
-                            
-                		<!-- OFF CANVAS NAV CONTENT-->
-                		<div id="offcanvas" class="uk-offcanvas">
-                			<div class="uk-offcanvas-bar">
-                				<ul class="uk-nav uk-nav-offcanvas">
-                					<li><a href="#">Home</a></li>
-                					<li class="uk-active"><a href="#">Portfolio</a></li>
-                				</ul>
-                			</div>
-                		</div>
-                		<!-- END OFF CANVAS NAV CONTENT -->
+        <!-- END PAGE CONTENT -->
 
+                
+            
+        <!-- END PORTFOLIO SECTION -->
+                        
+    	<!-- OFF CANVAS NAV CONTENT-->
+    	<div id="offcanvas" class="uk-offcanvas">
+    		<div class="uk-offcanvas-bar">
 
-       
+                <ul class="uk-nav uk-nav-offcanvas" data-uk-switcher="{connect:'#switcher-1'}">
+                    <div class="uk-container-center uk-text-center">
+                        <img class="uk-thumbnail-mini uk-border-circle" src="img/kc-2.jpg" alt="">
+                        <h1 class="uk-article-title"></h1>
+                    </div>
+                    <li><a href="#bio"><span>Bio</span></a></li>
+                    <li><a href=""><span>Portfolio</span></a></li>
+                    <li><a href=""><span>Tech Talk</span></a></li>
+                    <li><a href=""><span>Contact</span></a></li>
+                    
+                </ul>
+    		</div>
+    	</div>
+        		<!-- END OFF CANVAS NAV CONTENT -->
    </div>
 
         <script>
@@ -306,11 +316,18 @@
 
 </script>
 
-<script src="js/jquery.js"></script>
-        <script src="vendor/js/cbpFWTabs.js"></script>
-        <script src="vendor/js/modernizr.custom.js"></script>
-        <script src="js/uikit.js"></script>
-        
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Varela+Round::latin', 'Montserrat::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
     </body>
 </html>
