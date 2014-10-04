@@ -11,8 +11,9 @@ margin:auto;
 .uk-container-main {
 	margin-top:15px;
 }
-.uk-grid {
+.uk-grid>* {
 	margin:0 0 0 0px;
+	padding-left:20px;
 	
 }
 
@@ -114,10 +115,22 @@ margin:auto;
 	padding:0;
 }
 
-.uk-thumbnail-small {
-	margin-left: 0px;
-	padding-left: 0px;
+.uk-thumbnail-right {
+	margin-left: 5px;
+
 }
+
+.uk-thumbnail-left {
+	padding-right:5px;
+
+
+}
+
+.uk-thumbnail-center {
+	padding-right: 5px;
+	padding-left:5px;
+}
+
 .uk-article p {
 	font-family: 'Montserrat', sans-serif;
 }
