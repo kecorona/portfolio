@@ -4,9 +4,9 @@
 
 		if($word_list = file("words.txt", FILE_IGNORE_NEW_LINES)) {
 			$password = "";
-			$count = (empty($_POST["word_count"]) ? 4 : $_POST["word_count"]);
+			$count = $_POST["word_count"];
 			for ($i = 0; $i < $count; $i++) {
-				$word = $word_list[rand(0, 235886)];
+				$word = $word_list[rand(0, 172823)];
 
 				if (isset($_POST["lowercase"])) {
 					$word = strtolower($word);
@@ -24,11 +24,13 @@
 				}
 
 				if ($i != 0) {
-					$password .= (" ".$word);
+					$password .= ("-".$word);
 				} else {
 					$password .= $word;
 				}
 			}
+
+			return $password;
 				
 		}
 ?>

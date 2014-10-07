@@ -1,5 +1,6 @@
 <?php
 require 'logic.php';
+session_start();
 
 ?>
 
