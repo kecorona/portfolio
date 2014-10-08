@@ -3,7 +3,7 @@
 
 ## Project 2 -- XKCD Style Random Password Generator
 -----------------------------------------------------
-URL: kristincorona.guru/p2
+URL: <a href="kristincorona.guru/p2">Project 2</a>
 
 ### Title
 
@@ -15,5 +15,5 @@ Simple PHP random password generator based on the <a href="http://preshing.com/2
 
 ### Demo
 
-http://youtu.be/QhwozW_qW3Q
+<a href="http://youtu.be/QhwozW_qW3Q">Demo Link</a>
 
