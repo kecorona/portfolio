@@ -34,7 +34,7 @@ session_start();
 
 			<form class="uk-form" method="post" action="./">
 				<fieldset>
-					<h1>X KC D Style Password Generator</h1>
+					<h1><a href="http://preshing.com/20110811/xkcd-password-generator/">XKCD Style Password Generator</a></h1>
 
 					<fieldset>
 						<legend>Words</legend>
