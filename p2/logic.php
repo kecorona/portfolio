@@ -6,7 +6,7 @@
 			$password = "";
 			$count = $_POST["word_count"];
 			for ($i = 0; $i < $count; $i++) {
-				$word = $word_list[rand(0, 172823)];
+				$word = $word_list[rand(0, 10000)];
 
 				if (isset($_POST["lowercase"])) {
 					$word = strtolower($word);

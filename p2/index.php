@@ -30,12 +30,11 @@ session_start();
 	</nav>
 
 
-		<div class="uk-container-center uk-margin-top" id="content" data-uk-grid-margin>
+		<div class="uk-container uk-margin-top" id="content" data-uk-grid-margin>
 
 			<form class="uk-form" method="post" action="./">
 				<fieldset>
-					<h1 data-uk-tooltip title="xkcd"><a href="http://preshing.com/20110811/xkcd-password-generator/">XKCD Style Password Generator</a></h1>
-					<span data-uk-tooltip title="xkcd">What's this? Click here!</span>
+					<h1><a href="http://preshing.com/20110811/xkcd-password-generator/">XKCD Style Password Generator</a></h1>
 
 					<fieldset>
 						<legend>Words</legend>
