@@ -15,5 +15,5 @@ Simple PHP random password generator based on the <a href="http://preshing.com/2
 
 ### Demo
 
-<a href="http://youtu.be/QhwozW_qW3Q">Demo Link</a>
+<a href="kristincorona.guru/p2_demo.html">Demo Link</a>
 
